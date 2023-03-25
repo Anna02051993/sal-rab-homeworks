@@ -24,6 +24,6 @@ function renderCartItem(item) {
     // 8. Присвойте переменной itemCountText результат склеивания itemCountText и ` ₽`
 
     // Конец решения задания №3.1.
-
+let itemCountText=`${product.count} × ${product.price} ₽ = ${product.count * product.price} ₽`;
     return `<div class="cart-item"><div>${product.title}</div><div>${itemCountText}</div></div>`;
 }
